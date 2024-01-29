@@ -5,7 +5,7 @@ import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 
 export const Todo = ({ task, toggleComplate, deleteTodo, editTodo }) => {
   return (
-    <div className="todo flex justify-between items-center mt-3 bg-teal-600 p-2 rounded-md">
+    <div className="todo flex justify-between items-center mt-3 bg-blue-600 p-2 rounded-md">
       <p
         onClick={() => toggleComplate(task.id)}
         className={`text-white ${task.completed ? "line-through" : ""}`}
